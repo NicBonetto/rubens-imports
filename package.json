@@ -4,6 +4,9 @@
   "description": "Website for Ruben's Imports. A european car dealership located in Dana Point, California.",
   "main": "index.js",
   "scripts": {
+    "all": "run-p client server",
+    "client": "browserify -t babelify client/main.jsx > server/public/bundle.js",
+    "server": "babel-node .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
