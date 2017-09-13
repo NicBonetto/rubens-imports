@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:100,200,300,400,500,600');
+
+#greet::before {
+  content: '';
+  display: block;
+  background-image:
+    linear-gradient(
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.4)
+      ),
+      url('./images/mercedes-interior.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  opacity: 0.9;
+  top: 0;
+  left: 0;
+  position: absolute;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+}
+
+#greet {
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+#greet-header {
+  margin-top: 28%;
+  font-family: 'Cormorant Garamond', sans-serif;
+  font-weight: 400;
+  letter-spacing:1px;
+  color: rgba(196, 204, 220, 1);
+}
+
+.chevron {
+  color: rgba(196, 204, 220, 1);
+  display: block;
+  font-size: 30px;
+}
+
+.chevron-margin-down {
+  margin-top: 5%;
+}
+
+.chevron-margin-up {
+  margin-top: -2%;
+}

@@ -6,7 +6,7 @@
   "scripts": {
     "all": "run-p client server",
     "client": "browserify -t babelify client/main.jsx > server/public/bundle.js",
-    "server": "babel-node .",
+    "server": "babel-node server/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -25,7 +25,8 @@
     "express": "^4.15.4",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
-    "react-redux": "^5.0.6"
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
