@@ -6,7 +6,12 @@ export default class Greet extends React.Component {
       <section className="container-fluid" id="greet">
         <div className="row">
           <div className="col-sm-6 col-sm-offset-3 text-center" id='greet-header'>
+            <div>
+              <h3>Mercedes Benz, Porshe, and BMW.</h3>
+            </div>
+            <div>
             <h2>Unparalled service proven through our honesty, integrity, and quality.</h2>
+            </div>
           </div>
         </div>
         <div className="row">
