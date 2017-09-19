@@ -5,14 +5,14 @@ export default class Mission extends React.Component {
     return (
       <section className="container-fluid">
         <div className="row">
-          <div className="col-sm-12 text-center" id="mission-container">
-            <div id="mission-header">
+          <div className="col-md-12 text-center heading-container">
+            <div className="heading-header">
               <h1>We Strive for Customer Satisfaction.</h1>
             </div>
           </div>
         </div>
         <div className="row">
-          <div className="col-sm-6 light-background">
+          <div className="col-md-6 light-background">
             <div className="mission-text text-center">
               <header>
                 <h2>Welcome to Ruben's Imports.</h2>
@@ -25,11 +25,11 @@ export default class Mission extends React.Component {
               </div>
             </div>
           </div>
-          <div className="col-sm-6 dark-background"></div>
+          <div className="col-md-6 dark-background"></div>
         </div>
         <div className="row">
-          <div className="dana-background col-sm-6"></div>
-          <div className="light-background col-sm-6">
+          <div className="dana-background col-md-6"></div>
+          <div className="light-background col-md-6">
             <div className="mission-text text-center">
               <header>
                 <h2>Our Story...</h2>
