@@ -3,6 +3,7 @@ import { connect } from 'react-redux'
 import Greet from './greet.jsx'
 import Mission from './mission.jsx'
 import Service from './service.jsx'
+import Footer from '../footer.jsx'
 
 export default class HomePage extends React.Component {
   render() {
@@ -11,6 +12,7 @@ export default class HomePage extends React.Component {
         <Greet/>
         <Mission/>
         <Service/>
+        <Footer/>
       </div>
     )
   }
