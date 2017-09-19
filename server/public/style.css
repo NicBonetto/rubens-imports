@@ -139,7 +139,7 @@
 }
 
 #service-page {
-  background-image: url('./images/tech-background.png');
+  background-color: #2b2b2b;
   background-size: cover;
   height: 60vh;
 }
