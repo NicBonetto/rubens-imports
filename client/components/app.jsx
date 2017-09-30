@@ -1,14 +1,25 @@
 import React from 'react'
-import { Provider } from 'react-redux'
-import HomePage from './home/homepage.jsx'
-import Store from '../store'
+import { 
+  BrowserRouter as Router,
+  Route,
+  Switch} from 'react-router-dom'
+import Routes from '../utils/routes'
 
 export default class App extends React.Component {
   render() {
     return (
-      <Provider store={Store}>
-        <HomePage/>
-      </Provider>
+      <Router>
+        <Switch>
+          {Routes.map((route, index) => (
+              <Route 
+                  key={index}
+                  path={route.path}
+                  exact={route.exact}
+                  component={route.component}
+              />
+          ))}
+        </Switch>
+      </Router>
     )
   }
 }

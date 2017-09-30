@@ -221,12 +221,24 @@
   color: rgba(196, 204, 220, 1);
 }
 
+.nav-bar-item a:visited {
+  color: rgba(196, 204, 220, 1);
+}
+
 .nav-bar-item a:hover {
   color: #b3d1ff;
-  text-decoration: none;
+  cursor: pointer;
 }
 
 .active {
   border-top: 1.5px solid #b3d1ff;
   border-bottom: 1.5px solid #b3d1ff;
+}
+
+ul, li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none !important;
 }
