@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond|Scheherazade:100,200,300,400,500');
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond|Scheherazade|Source+Sans+Pro:100,200,300,400,500');
 
 #greet::before {
   content: '';
@@ -50,8 +50,21 @@
 }
 
 .light-background {
-  background-color: #f2f2f2;
+  overflow: hidden;
+  position: relative;
   height: 100vh;
+}
+
+.light-background::before {
+  background-color: #f2f2f2;
+  background-size: cover;
+  position: absolute;
+  z-index: -1;
+  content: ' ';
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
 }
 
 .dark-background {
@@ -133,7 +146,7 @@
 
 .heading-header {
   margin-top: 3.5%;
-  font-family: 'Scheherazade';
+  font-family: 'Scheherazade', sans-serif;
   font-weight: 500;
   letter-spacing: 1px;
 }
@@ -141,7 +154,7 @@
 #service-page {
   background-color: #2b2b2b;
   background-size: cover;
-  height: 60vh;
+  height: 50vh;
 }
 
 .logos {
@@ -166,7 +179,7 @@
   background-color: #f2f2f2;
   background-size: cover;
   height: 15vh;
-  box-shadow: inset 0px 3px rgba(43, 43, 43, 0.2);
+  box-shadow: inset 0px 3px rgba(43, 43, 43, 0.1);
 }
 
 .footer-links {
@@ -175,4 +188,45 @@
 
 .link-font {
   color: #3f607f;
+}
+
+.nav-bar {
+  top: 0;
+  right: 0;
+  left: 0;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.7);
+  background-size: cover;
+  height: 75px;
+  z-index: 2;
+}
+
+.nav-bar-section {
+    margin-top: 37px;
+}
+
+.nav-bar-item {
+  margin-right: 1%;
+  margin-left: 1%;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+  letter-spacing: 1px;
+  font-size: 20px;
+  display: inline-block;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.nav-bar-item a {
+  color: rgba(196, 204, 220, 1);
+}
+
+.nav-bar-item a:hover {
+  color: #b3d1ff;
+  text-decoration: none;
+}
+
+.active {
+  border-top: 1.5px solid #b3d1ff;
+  border-bottom: 1.5px solid #b3d1ff;
 }
