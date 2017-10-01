@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Contact from './contact.jsx'
 
 class General extends Component {
     render() {
@@ -21,6 +22,7 @@ class General extends Component {
                             </div>
                         </div>
                     </div>
+                    <Contact/>
                 </div>
             </section>
         )
