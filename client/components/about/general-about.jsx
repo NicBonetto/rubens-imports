@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Contact from './contact.jsx'
+import MapContainer from './location.jsx'
 
 class General extends Component {
     render() {
@@ -23,6 +24,7 @@ class General extends Component {
                         </div>
                     </div>
                     <Contact/>
+                    <MapContainer/>
                 </div>
             </section>
         )

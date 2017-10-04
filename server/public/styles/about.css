@@ -6,3 +6,9 @@
     margin-top: 28vh;
     width: 100%;
 }
+
+.map-container {
+    height: 400px;
+    width: 350px;
+    margin-bottom: 2vh;
+}
