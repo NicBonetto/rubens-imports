@@ -7,7 +7,7 @@ class Contact extends Component {
                 <div className="col-md-8">
                     <div id="contact-container">
                         <header>
-                            <h4>Contanct Information</h4>
+                            <h4>Contact Information</h4>
                         </header>
                         <div>
                             <h6>Ruben's Imports</h6>

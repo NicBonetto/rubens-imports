@@ -12,3 +12,16 @@
     width: 350px;
     margin-bottom: 2vh;
 }
+
+#meet-header {
+    margin-left: 3vh;
+}
+
+.person-container {
+    margin-left: 3vh;
+}
+
+.person-image {
+    width: 200px;
+    height: 200px;
+}
