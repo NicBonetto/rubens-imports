@@ -2,10 +2,10 @@
 Website for Ruben's Imports. A european car dealership located in Dana Point, California.
 
 # Getting Started
-This application uses Git and Node, so ensure they are installed. Then follow the commands in your terminal:
+If you want to follow this project's progress, follow these steps. This application uses Git and Node, so ensure they are installed. Then copy these commands in your terminal:
 
 ```
-$ git clone 
+$ git clone https://github.com/NicBonetto/rubens-imports.git
 $ cd rubens-imports/
 $ npm run all
 ```
