@@ -7,6 +7,7 @@ If you want to follow this project's progress, follow these steps. This applicat
 ```
 $ git clone https://github.com/NicBonetto/rubens-imports.git
 $ cd rubens-imports/
+$ npm install
 $ npm run all
 ```
 
