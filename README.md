@@ -10,5 +10,6 @@ $ cd rubens-imports/
 $ npm install
 $ npm run all
 ```
+Before running the script ```$ npm run all```, create a .env file and put a port variable with the value of whatever port number you want this application to occupy in localhost.
 
 *This is a work in progress and is not yet completed. Currently, the only links that work are: Home and About.*
