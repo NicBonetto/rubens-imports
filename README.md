@@ -11,4 +11,4 @@ $ npm install
 $ npm run all
 ```
 
-*This is a work in progress and is not yet completed.*
+*This is a work in progress and is not yet completed. Currently, the only links that work are: Home and About.*
