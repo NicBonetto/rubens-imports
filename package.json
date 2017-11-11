@@ -4,10 +4,10 @@
   "description": "Website for Ruben's Imports. A european car dealership located in Dana Point, California.",
   "main": "index.js",
   "scripts": {
-    "all": "run-p watch:client watch:server",
+    "dev": "webpack && npm run watch:server",
     "watch:server": "nodemon --exec npm run server",
-    "watch:client": "watchify client/main.jsx -v -o server/public/bundle.js -t babelify",
-    "server": "babel-node server/index.js",
+    "webpack": "webpack",
+    "server": "babel-node server/index.js --presets env",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -33,12 +33,11 @@
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
-    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
-    "babel-plugin-transform-react-jsx": "^6.24.1",
-    "babelify": "^7.3.0",
-    "browserify": "^14.4.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
     "nodemon": "^1.12.0",
-    "npm-run-all": "^4.1.1",
-    "watchify": "^3.9.0"
+    "webpack": "^3.8.1"
   }
 }
