@@ -1,4 +1,5 @@
 node_modules
 package-lock.json
 .env
-server/public/bundle.js
+server/public/build/
+.gitignore
