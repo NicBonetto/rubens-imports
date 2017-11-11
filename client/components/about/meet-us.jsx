@@ -3,9 +3,9 @@ import team from '../../utils/team'
 
 class MeetUs extends Component {
     renderTeam() {
-        return team.map(person => {
+        return team.map((person, index) => {
             return (
-                <div className="col-md-5 person-container">
+                <div key={index} className="col-md-5 person-container">
                     <div>
                         <img className="person-image" src={person.picture} />
                     </div>
